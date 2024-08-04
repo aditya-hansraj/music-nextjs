@@ -1,4 +1,6 @@
 import type { Config } from "tailwindcss";
+import colors from "tailwindcss/colors";
+import { addVariablesForColors } from "./plugins/tailwindPlugins";
 
 const config: Config = {
   content: [
@@ -24,13 +26,14 @@ const config: Config = {
             transform: "translate(-72%, -62%) scale(0.5)",
           },
           "100%": {
-            opacity: '  ',
+            opacity: '1',
             transform: "translate(-50%,-40%) scale(1)",
           },
         },
       },
     },
   },
-  plugins: [],
+  plugins: [addVariablesForColors],
 };
 export default config;
+

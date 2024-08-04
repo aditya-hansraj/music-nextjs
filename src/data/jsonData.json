@@ -1,0 +1,87 @@
+{
+    "courses": [
+      {
+        "id": 1,
+        "slug": "guitar-fundamentals",
+        "title": "Guitar Fundamentals",
+        "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+        "price": 99.99,
+        "instructor": "John Doe",
+        "isFeatured": true,
+        "image": "/courses/guitar.jpg"
+      },
+      {
+        "id": 2,
+        "slug": "advanced-javascript-mastery",
+        "title": "Advanced JavaScript Mastery",
+        "description": "Dive deep into complex JavaScript concepts, asynchronous programming, and functional programming techniques.",
+        "price": 129.99,
+        "instructor": "Jane Smith",
+        "isFeatured": true,
+        "image": "/courses/js-advanced.jpg"
+      },
+      {
+        "id": 3,
+        "slug": "react-for-beginners",
+        "title": "React for Beginners",
+        "description": "Learn the fundamentals of React, build interactive user interfaces, and understand component-based architecture.",
+        "price": 79.99,
+        "instructor": "Alex Lee",
+        "isFeatured": false,
+        "image": "/courses/react-basics.jpg"
+      },
+      {
+        "id": 4,
+        "slug": "nodejs-express-restful-apis",
+        "title": "Node.js Express: RESTful APIs",
+        "description": "Create robust RESTful APIs using Node.js and Express.",
+        "price": 109.99,
+        "instructor": "Michael Johnson",
+        "isFeatured": true,
+        "image": "/courses/nodejs-express.jpg"
+      },
+      {
+        "id": 5,
+        "slug": "piano-harmony-essentials",
+        "title": "Piano Harmony Essentials",
+        "description": "Unlock the secrets of chord progressions, inversions, and harmonization techniques on the piano.",
+        "price": 89.99,
+        "instructor": "Emily Chen",
+        "isFeatured": true,
+        "image": "/courses/piano-harmony.jpg"
+      },
+      {
+        "id": 6,
+        "slug": "songwriting-101",
+        "title": "Songwriting 101: From Lyrics to Melodies",
+        "description": "Craft your own songs by mastering the art of songwriting.",
+        "price": 69.99,
+        "instructor": "David Rodriguez",
+        "isFeatured": false,
+        "image": "/courses/songwriting.jpg"
+      }
+    ],
+    "content": [
+      {
+        "title": "Experienced Instructors",
+        "description": "Learn from passionate and skilled instructors who have years of experience in the music industry. Our teachers are dedicated to helping you reach your musical goals."
+      },
+      {
+        "title": "Diverse Course Offerings",
+        "description": "Explore a wide range of music courses, from classical to contemporary. Whether you're interested in playing an instrument, singing, or music theory, we've got you covered."
+      },
+      {
+        "title": "Interactive Learning",
+        "description": "Engage in interactive lessons that keep you motivated and excited about learning music. Our hands-on approach ensures that you'll progress quickly and enjoy the process."
+      },
+      {
+        "title": "Interactive Learning",
+        "description": "Engage in interactive lessons that keep you motivated and excited about learning music. Our hands-on approach ensures that you'll progress quickly and enjoy the process."
+      },
+      {
+        "title": "Supportive Community",
+        "description": "Join a vibrant community of music enthusiasts. Connect with fellow students, attend workshops, and participate in recitals. We're here to support you every step of the way."
+      }
+    ]    
+}
+  

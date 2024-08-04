@@ -31,3 +31,11 @@ body {
     text-wrap: balance;
   }
 }
+
+.hide-scroll ::-webkit-scrollbar {
+  display: none;
+}
+
+.why-choose-us {
+  max-height: 50vh;
+}
