@@ -6,7 +6,7 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black/[0.96] antialiased dark:bg-grid-white/[0.2] bg-grid-black/[0.2]">
+    <main className="min-h-screen bg-black/[0.96] antialiased">
       <HeroSection />
       <FeaturedCourses />
       <WhyChooseUs />
