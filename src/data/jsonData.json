@@ -109,6 +109,44 @@
         "name": "David Kim",
         "title": "Jazz Studies Student"
       }
+    ],
+    "webinars": [
+      {
+        "title": "The Evolution of Jazz: From Louis Armstrong to Miles Davis",
+        "description": "Explore the rich history and evolution of jazz music, featuring the works and influences of legendary artists like Louis Armstrong and Miles Davis.",
+        "slug": "evolution-of-jazz",
+        "isFeatured": true
+      },
+      {
+          "title": "The Impact of Technology on Modern Music Production",
+          "description": "Discover how technological advancements have transformed music production, from analog to digital, and the tools that are shaping the sound of today.",
+          "slug": "technology-in-music-production",
+          "isFeatured": true
+      },
+      {
+          "title": "The Power of Lyrics: Songwriting Techniques from the Pros",
+          "description": "Learn songwriting techniques from professional lyricists and composers, and understand the importance of lyrics in crafting memorable and impactful songs.",
+          "slug": "power-of-lyrics",
+          "isFeatured": true
+      },
+      {
+          "title": "The Influence of Classical Music on Contemporary Genres",
+          "description": "Examine how classical music has influenced various contemporary genres, including rock, pop, and electronic music.",
+          "slug": "classical-music-influence",
+          "isFeatured": true
+      },
+      {
+          "title": "Music Therapy: Healing Through Sound",
+          "description": "Understand the principles of music therapy and how sound can be used as a therapeutic tool to promote mental and emotional well-being.",
+          "slug": "music-therapy",
+          "isFeatured": true
+      },
+      {
+          "title": "The Business of Music: Navigating the Modern Music Industry",
+          "description": "Gain insights into the modern music industry, covering topics such as copyright, royalties, marketing, and the role of streaming services.",
+          "slug": "business-of-music",
+          "isFeatured": true
+      }
     ]
 }
   

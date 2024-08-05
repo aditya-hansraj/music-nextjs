@@ -32,7 +32,7 @@ const FeaturedCourses = () => {
                 featuredCourses.map((course :Course) => (
                     <CourseCard key={course.id} title={course.title} description={course.description} slug={course.slug}></CourseCard>
                 ))
-            }
+            } 
         </div>
       </div>
       <div className="mt-20 text-center">

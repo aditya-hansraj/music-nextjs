@@ -1,4 +1,3 @@
-"use client";
 import { InfiniteMovingCards } from './ui/infinite-moving-cards';
 import jsonData from '@/data/jsonData.json';
 
