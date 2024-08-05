@@ -1,6 +1,11 @@
 import type { Config } from "tailwindcss";
-import colors from "tailwindcss/colors";
-import { addVariablesForColors } from "./plugins/tailwindPlugins";
+const defaultTheme = require("tailwindcss/defaultTheme");
+const colors = require("tailwindcss/colors");
+const svgToDataUri = require("mini-svg-data-uri");
+const {
+  default: flattenColorPalette,
+} = require("tailwindcss/lib/util/flattenColorPalette");
+import { addVariablesForColors, generateBackgroundStyles } from "./plugins/tailwindPlugins";
 
 const config: Config = {
   content: [
@@ -18,6 +23,7 @@ const config: Config = {
       },
       animation: {
         spotlight: "spotlight 2s ease .75s 1 forwards",
+        scroll: "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
       },
       keyframes: {
         spotlight: {
@@ -30,10 +36,14 @@ const config: Config = {
             transform: "translate(-50%,-40%) scale(1)",
           },
         },
+        scroll: {
+          to: {
+            transform: "translate(calc(-50% - 0.5rem))",
+          },
+        },
       },
     },
   },
-  plugins: [addVariablesForColors],
+  plugins: [addVariablesForColors, generateBackgroundStyles],
 };
 export default config;
-

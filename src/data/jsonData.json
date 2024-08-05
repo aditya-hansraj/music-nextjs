@@ -82,6 +82,33 @@
         "title": "Supportive Community",
         "description": "Join a vibrant community of music enthusiasts. Connect with fellow students, attend workshops, and participate in recitals. We're here to support you every step of the way."
       }
-    ]    
+    ],
+    "testimonials": [
+      {
+        "quote": "As a violinist, finding the right mentor can be challenging, but this school matched me with a teacher who truly understands my goals and challenges.",
+        "name": "Emily Taylor",
+        "title": "Violin Student"
+      },
+      {
+        "quote": "The production courses here opened my eyes to the intricacies of music production. Highly recommend for any aspiring producers!",
+        "name": "Chris Morales",
+        "title": "Music Production Student"
+      },
+      {
+        "quote": "The faculty here are not only knowledgeable but also approachable and supportive. I've grown so much as a musician.",
+        "name": "Alex Johnson",
+        "title": "Piano Student"
+      },
+      {
+        "quote": "The state-of-the-art facilities and resources available to students are simply unparalleled. It's an amazing environment to learn and create.",
+        "name": "Samantha Lee",
+        "title": "Sound Engineering Student"
+      },
+      {
+        "quote": "I've never felt more inspired and challenged. The community here is incredibly talented and motivating.",
+        "name": "David Kim",
+        "title": "Jazz Studies Student"
+      }
+    ]
 }
   
