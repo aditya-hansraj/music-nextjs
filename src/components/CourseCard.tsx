@@ -1,11 +1,6 @@
 import Link from 'next/link'
 import { BackgroundGradient } from './ui/background-gradient'
-
-type CourseCardProps = {
-    title: string
-    description: string
-    slug: string
-}
+import { CourseCardProps } from '@/lib/Types'
 
 const CourseCard = ({ title, description, slug } : CourseCardProps) => {
   return (

@@ -1,16 +1,7 @@
 import courseData from "@/data/jsonData.json";
 import Link from "next/link";
 import CourseCard from "./CourseCard";
-
-interface Course {
-    id: number,
-    slug: string,
-    title: string,
-    description: string,
-    price: number,
-    instructor: string,
-    isFeatured: boolean
-}
+import { Course } from '@/lib/Types'
 
 const FeaturedCourses = () => {
 
